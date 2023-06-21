@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css"/>
+    <title>INSCRIPTION</title>
+</head>
+<body>
+	<div id="bloc_page">
+		<header>
+				<a href="index.html"><img src="logo/logo.gif" alt="logo du site" width="90%"></a>
+				<nav>
+					<ul style="width:50%;position:absolute;left:29%;//background-color:rgb(0,123,53);text-align:center;">
+						<li class="deroulant" style="position:absolute;left:0px;"><a href="reservation.html">Reserver</a></li>
+						<li ><a href="index.html#newsletter">Newsletter</a></li>
+						<li class="deroulant" style="position:absolute;right:-70px;"><a href="calco.html">Calculer</a></li>
+					</ul>
+				</nav>
+				
+		</header>
+		<div id="imagedefond"></div>
+		<div id="form_contener"></div>
+		<form>
+				<center><b><legend>INSCRIVEZ-VOUS EN TOUTE SÉCURITÉ</legend></b></center>
+				<br></br>
+				
+				<center><label for="nom">Renseignez votre nom:</label><br>
+					<input type="text" name="nom" class="obligatoire" required/><br></br>
+					
+				<label for="prenom">Renseignez votre prenom:</label><br>
+			   	 <input type="text" name="prenom" class="obligatoire" required/></strong><br></br>
+			   	 
+				<label for="date">Date de Naissance:</label><br>
+			   	 <input type="date" name="day" id="day" class="ed"/></br></br>
+				
+				<label for="sexe">Homme</label>
+					<input type="radio" name="homme" id="sexe"/>
+				<label for="sexe">Femme</label>
+					<input type="radio" name="homme" id="sexe"/></br></br>
+					
+				<label for="prenom">Situation professionnelle:</label><br>
+			   	 <input type="text" name="profession" id="profession"/></strong><br></br>
+			   	 
+				<label for="adresse">Adresse e-mail:</label><br>
+				<input type="email" name="E-mail" id="adress"/></br></br>
+				
+				<label for="adresse">Mot de Passe:</label><br>
+				<input type="password" name="mot de passe" class="obligatoire" required/></br></br>
+				<label for="adresse">Vérification du mot de passe:</label><br>
+				<input type="password" name="password" class="obligatoire" required/>
+				
+					</center><br></br>
+			 
+				<center><input type="submit" value="Valider inscription" name="validation" class="déposer"/>
+					     <input type="reset" value="Annuler" name="desistement" class="desister"/></center><br>
+					     <center>OU<br/><br/><a href="connexion.html" style="text-decoration: underline;color:rgb(65, 255, 255);">Connectez-vous</a></center><br/>
+		</form>
+	</div>
+</body>
+</html>
+
+
+
+ 

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css"/>
+    <title>RESERVATION</title>
+</head>
+<body>
+	<header>
+				<a href="index.html"><img src="logo/logo.gif" alt="logo du site" width="90%"></a>
+				<nav>
+					<ul style="width:50%;position:absolute;left:29%;//background-color:rgb(0,123,53);text-align:center;">
+						<li class="deroulant" style="position:absolute;left:0px;"><a href="reservation.html">Reserver</a></li>
+						<li ><a href="index.html#newsletter">Newsletter</a></li>
+						<li class="deroulant" style="position:absolute;right:-70px;"><a href="calco.html">Calculer</a></li>
+					</ul>
+				</nav>
+				
+	</header>
+	<div id="bloc">
+		<form>
+			
+		        <h3><center>RESERVEZ ICI</center></h3><br/>
+		        <label for="nom">Nom(s)</label>
+		        <input type="text" name="nom" id="nom" class="obligatoire" required/><br></br>
+		        <label for="prenom">Prenom(s)</label>
+		        <input type="text" name="prenom" id="prenom" class="obligatoire" required/></strong><br></br>
+		        <label for="date">Date de Naissance</label>
+		        <input type="date" name="day" id="day" class="ed"/></br></br>
+		        <label for="ville" >Pays/Ville de départ</label>
+		        <select name="ville" id="ad" class="départ" >
+		            <option>Yaounde</option>
+		            <option>Douala</option>
+		            <option>Abidjan</option>
+		            <option>Congo</option>
+		            <option>Tunisie</option>
+		            <option>Paris</option>
+		            <option>Angola</option>
+		            <option>USA</option>
+		            <option>Canada</option>
+		            <option>Bafoussam</option>
+		            <option>Fance</option>
+		            <option>Burkina-Fasso</option>  
+		        </select></br></br>
+		        
+		        <label for="ville" >Destination</label>
+		        <select name="ville" id="ad" class="arrivée" >
+			<option>RDC</option>
+		            <option>Yaounde</option>
+		            <option>Libreville</option>
+		            <option>Côte d'ivoire</option>
+		            <option>Maroc</option>
+		            <option>Togo</option>
+		            <option>Paris</option>
+		            <option>Berlin</option>
+		            <option>Douala</option>
+		            <option>Centre Afrique</option>
+		            <option>Gabon</option>
+		            <option>Japon</option>
+		            <option>Chine</option>
+		        </select></br></br>
+		        
+		        <label for="sexe">Homme</label>
+		        <input type="radio" name="homme" id="sexe" class="radio"/>
+		        <label for="sexe">Femme</label>
+		        <input type="radio" name="homme" id="sexe"/></br></br></br>
+		        <center><input type="submit" value="Soumettre" name="validation" class="depôt"/></center>
+			
+		</form>
+	</div>
+</body>
+</html>
+
+
+
+ 
