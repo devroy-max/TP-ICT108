@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accueil</title>
+</head>
+<body>
+	<div id="bloc_page">
+		<header>
+			<a href="index.html"><img src="logo/logo.gif" alt="logo du site" width="90%"></a>
+			<nav>
+				<ul>
+					<li class="deroulant" style="position:absolute;left:0px;"><a href="#destinations">Destinations</a></li>
+					<li ><a href="#newsletter">Newsletter</a></li>
+					<li class="deroulant" style="position:absolute;right:0px;"><a href="reservation.html" class="reserver">Reserver</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+
+		<div id="banniere_image">
+				
+				<!--<div id="recherche">
+					<input type="search" placeholder="Rechercher..." style="width:100%;height:100%;"/>
+					<div class="loupe"><img src="logo/loupe.png" alt="image loupe" width="20px"/></div>
+				</div>-->
+				
+				<h1 class="titre_principal">DEPLACEZ-VOUS EN UN CLIC PARTOUT DANS LE MONDE ENTIER</h1>
+				<img src="images/carte_voyag.jpg" alt="image carte voyage" style="width:100%;position:absolute;top:0px;z-index:1;">
+		</div>
+		<div id="infos_connexion">
+			<p class="reservez" style="position:absolute;//top:0px;right:40%;width:52%;font-size: 22px;//color:green;//background-color: yellow;">RESERVEZ VOTRE BILLET FACILEMENT ET SANS SOUCIS</p>
+			<div id="ul_infos">
+				<ul>
+						<a href="inscription.html" class="couleur_blanche"><li class="inscription">S'INSCRIRE</li></a>
+						<a href="connexion.html" class="couleur_blanche"><li class="connexion" >SE CONNECTER</li></a>
+				</ul>
+			</div>
+		</div>
+		<br/><br/><br/><br/><br/><br/>
+		<section id="destinations">
+			<br/><h2 class="dest" style="margin:20px;">DESTINATIONS RAPIDES</h2>
+			<h4 class="decouvrez" style="margin:20px;"><em>Découvrez une sélection de destinations pour votre prochain voyage</em></h4><br/>
+			<div id="les_villes">
+				<a href="#">
+					<figure>
+						<img src="images/yaounde.jpeg" alt="image yaounde" />
+						<figcaption>Yaounde</figcaption>
+					</figure>
+				</a>
+				<a href="#">
+					<figure>
+						<img src="images/douala.jpeg" alt="image douala" />
+						<figcaption>Douala</figcaption>
+					</figure>
+				</a>
+				<a href="#">
+					<figure>
+						<img src="images/bafoussam.jpeg" alt="image bafoussam" />
+						<figcaption>Bafoussam</figcaption>
+					</figure>
+				</a>
+				<a href="#">
+					<figure>
+						<img src="images/dschang.jpeg" alt="image dschang" />
+						<figcaption>Dschang</figcaption>
+					</figure>
+				</a>
+				<a href="#">
+					<figure>
+						<img src="images/maroua.jpeg" alt="image maroua" />
+						<figcaption>Maroua</figcaption>
+					</figure>
+				</a>
+				<a href="#">
+					<figure>
+						<img src="images/limbe.jpeg" alt="image limbe" />
+						<figcaption id="newsletter">Limbe</figcaption>
+					</figure>
+				</a>
+				
+			</div>
+		</section>
+		<div id="les_bons_plans_voyage">
+				<div class="bonPlan">
+					<h1 class="ne_manquez_pas" style="color:white;">Ne manquez pas les bons plans voyage !</h1>
+					<h5 class="inscrivez_vous" style="color:white;">Inscrivez-vous à notre newsletter et recevez tous nos bons plans pour partir en toute sérénité.</h5><br/>
+					<input type="email" name="e-mail" placeholder=" Adresse e-mail" style="width:250px;height:20px;border-radius: 8px;"><br/><br/>
+					<input type="text" name="ville_de_depart" placeholder=" Ville de départ" style="width:250px;height:20px;border-radius: 8px;"><br/><br/><br/>
+					<a href="#" id="inscr">S'inscrire</a><br/><br/>
+				</div>
+		</div>
+		
+		<!--<footer>
+			<div id="cadre_bleu_footer">
+				<div style="position:relative;height:2px;width: 100px;text-align: center;margin-left: auto;margin-right: auto;"><img src="logo/logo.gif" alt="logo site" height="80px"></div><br/><br/><br/><br/>
+				<div id="menu">
+					<div id="Cameroun">
+						<div id="centrer">
+							<h1>Au Cameroun</h1>
+							<ul style="list-style-type: none;">
+								<li><a href="#">Nord</a></li>
+								<li><a href="#">Centre</a></li>
+								<li><a href="#">Ouest</a></li>
+								<li><a href="#">Autres...</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="Afrique">
+						<div id="centrer">
+							<h1>En Afrique</h1>
+							<ul style="list-style-type: none;">
+								<li><a href="#">Cote d'Ivoire</a></li>
+								<li><a href="#">Maroc</a></li>
+								<li><a href="#">Nigeria</a></li>
+								<li><a href="#">Autres...</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="Monde">
+						<div id="centrer">
+							<h1>Dans le monde</h1>
+							<ul style="list-style-type: none;">
+								<li><a href="#">Europe</a></li>
+								<li><a href="#">Amerique</a></li>
+								<li><a href="#">Asie</a></li>
+								<li><a href="#">Autres...</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div id="reseaux_sociaux">
+					<a href="www.facebook.com"><img src="logo/reseaux sociaux/facebook.png" alt="logo facebook" width="30px"style="margin:10px"></a>
+					<a href="www.instagram.com"><img src="logo/reseaux sociaux/instagram.png" alt="logo instagram" width="30px" style="margin:10px"></a>
+					<a href="www.twitter.com"><img src="logo/reseaux sociaux/twitter.png" alt="logo twitter" width="30px" style="margin:10px"></a>
+					<a href="www.youtube.com"><img src="logo/reseaux sociaux/youtube.png" alt="logo youtube" width="30px" style="margin:10px"></a>
+				</div>
+			</div>
+		</footer>-->
+		<div class="barre_du_bas">
+			<p class="cpyright" style="position:absolute;right:10px;color:white;">(c)2023 tinoto companies.</p>
+		</div>
+		<a href="#"><img class="fleche" src="images/fleche.png" alt="image fleche haut" ></a>
+	</div>
+</body>
+</html>
